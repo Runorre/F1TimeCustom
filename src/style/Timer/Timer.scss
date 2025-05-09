@@ -1,0 +1,30 @@
+.timing-screen {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-family: monospace;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 40px 20px 400px 100px 80px auto 70px 50px;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+    padding-bottom: 0.5rem;
+}
+
+.driver-row {
+    display: grid;
+    grid-template-columns: 40px 20px 400px 100px 80px auto 70px 50px;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #333;
+}
+
+.last-lap {
+    text-align: left;
+}
